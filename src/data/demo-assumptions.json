@@ -1,0 +1,1065 @@
+{
+  "calendar": {
+    "period": "2026-09",
+    "preparedAt": "2026-10-14",
+    "snapshotDate": "2026-09-30",
+    "forecastStart": "2026-10-01",
+    "yearShift": 10
+  },
+  "budgets": [
+    {
+      "accountId": "7",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6887,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7062,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "55",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1839,
+        5517,
+        3128,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1886,
+        5658,
+        3208,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "56",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5019,
+        11685,
+        15442,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5146,
+        11982,
+        15835,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "82",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        93600,
+        122400,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        87054,
+        113839,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "86",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -2928,
+        -5664,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -2723,
+        -5268,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "29",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10080,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10566,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "11",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22193,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22758,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "58",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9728,
+        4228,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10197,
+        4432,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "64",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7928,
+        13136,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8310,
+        13769,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "66",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22245,
+        0,
+        9536,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        23318,
+        0,
+        9995,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "67",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        19409,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20345,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "45",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        18240,
+        8640,
+        30720,
+        35040,
+        42000,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        16964,
+        8036,
+        28571,
+        32589,
+        39062,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "48",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        18720,
+        0,
+        34224,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        17411,
+        0,
+        31830,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "49",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        12600,
+        0,
+        0,
+        190011,
+        38400,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        11719,
+        0,
+        0,
+        176721,
+        35714,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "52",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        24000,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22321,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "53",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4800,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4464,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "12",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6900,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7075,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "69",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        23000,
+        0,
+        6900,
+        28980,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        23585,
+        0,
+        7075,
+        29717,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "70",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5060,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5189,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "71",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        27600,
+        0,
+        0,
+        9200,
+        0,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        28302,
+        0,
+        0,
+        9434,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "72",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        17020,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        17453,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "75",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        69460,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        71226,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "13",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        521,
+        2100,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        534,
+        2154,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "14",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        91600,
+        200000,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        86415,
+        188679,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "15",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1663,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1706,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "54",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        6720,
+        0,
+        6720,
+        -9600,
+        6720,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        6250,
+        0,
+        6250,
+        -8929,
+        6250,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "17",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        82800,
+        0,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        84906,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "79",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        26400,
+        36768,
+        59904,
+        140520,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        24554,
+        34196,
+        55714,
+        130692,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "1",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        38400,
+        9941,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35714,
+        9246,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "76",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7952,
+        10496,
+        0,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8155,
+        10763,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "accountId": "77",
+      "monthlyCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5198,
+        6841,
+        0,
+        0,
+        0,
+        0
+      ],
+      "illustrativePriorYearCents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5330,
+        7015,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "revenueFactor": 1,
+  "costFactor": 1,
+  "modeledCogsRate": 0.12,
+  "planCogsRate": 0.1,
+  "openingCashCents": 406352,
+  "collectionDelayWeeks": 0,
+  "paymentDelayWeeks": 0,
+  "weeks": [
+    {
+      "week": 1,
+      "startDate": "2026-10-01",
+      "newReceiptsCents": 77007,
+      "newPaymentsCents": 75611
+    },
+    {
+      "week": 2,
+      "startDate": "2026-10-08",
+      "newReceiptsCents": 80216,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 3,
+      "startDate": "2026-10-15",
+      "newReceiptsCents": 83425,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 4,
+      "startDate": "2026-10-22",
+      "newReceiptsCents": 77007,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 5,
+      "startDate": "2026-10-29",
+      "newReceiptsCents": 80216,
+      "newPaymentsCents": 75611
+    },
+    {
+      "week": 6,
+      "startDate": "2026-11-05",
+      "newReceiptsCents": 83425,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 7,
+      "startDate": "2026-11-12",
+      "newReceiptsCents": 77007,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 8,
+      "startDate": "2026-11-19",
+      "newReceiptsCents": 80216,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 9,
+      "startDate": "2026-11-26",
+      "newReceiptsCents": 83425,
+      "newPaymentsCents": 75611
+    },
+    {
+      "week": 10,
+      "startDate": "2026-12-03",
+      "newReceiptsCents": 77007,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 11,
+      "startDate": "2026-12-10",
+      "newReceiptsCents": 80216,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 12,
+      "startDate": "2026-12-17",
+      "newReceiptsCents": 83425,
+      "newPaymentsCents": 71331
+    },
+    {
+      "week": 13,
+      "startDate": "2026-12-24",
+      "newReceiptsCents": 77007,
+      "newPaymentsCents": 75611
+    }
+  ],
+  "notes": {
+    "lead": "September in focus: review the largest cost variances and collection timing before setting next month’s plan.",
+    "result": "Job materials and operating costs are the main levers in this sample. Expand an account group to trace its source activity.",
+    "cashRisk": "Opening balances are rebased snapshots. Try delaying collections by two weeks to see the effect on the cash low point.",
+    "followUp": "Review overdue customer balances, then adjust the weekly receipts and payment schedule with the operations team."
+  }
+}

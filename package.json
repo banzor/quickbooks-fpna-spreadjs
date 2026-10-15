@@ -1,0 +1,22 @@
+{
+  "name": "northline-fpa",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "prepare-data": "node scripts/prepare-data.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@mescius/spread-sheets": "19.2.4",
+    "@mescius/spread-sheets-shapes": "19.2.4",
+    "@mescius/spread-sheets-charts": "19.2.4",
+    "@mescius/spread-sheets-sparklines": "19.2.4"
+  },
+  "devDependencies": {
+    "vite": "8.3.4"
+  }
+}

@@ -1,0 +1,1274 @@
+{
+  "sourceCounts": {
+    "Accounts": 89,
+    "Item": 18,
+    "Customer": 29,
+    "Vendor": 26,
+    "Invoice": 31,
+    "SalesReceipt": 4,
+    "CreditMemo": 1,
+    "RefundReceipt": 1,
+    "Bill": 15,
+    "Purchase": 35,
+    "JournalEntry": 3,
+    "Payment": 16,
+    "BillPayment": 10,
+    "Deposit": 5,
+    "Estimate": 4,
+    "PurchaseOrder": 3,
+    "TimeActivity": 5
+  },
+  "sourceHashes": {
+    "Accounts.json": "84c097817a97ba808449ce2d495175625027dbceac8eb71c928cff0de801f4db",
+    "Bill.json": "f5c9eda5e83ebc4ea7ef34c79d33e08b1ed60f9ef9b3a8052fac51b474774b22",
+    "BillPayment.json": "8daa62956e2370c8ae66329fc5f644dc55870b00b3ec7474ef57aa155215260e",
+    "CompanyInfo.json": "bc30db79b346878fecd1659ad09626c62f125bad18ec50373238ce3809eb243d",
+    "CreditMemo.json": "e536cbdbe66771f0aa44604da8c2b17ea1a24de04f01259600e63384ada57a06",
+    "Customer.json": "9dff46f2e64c5205da65ec69832debe41c7cb9c06a241757c7c0fac9e7ec37b1",
+    "Deposit.json": "3aa57f89cac4989f9c7b43783e91326c75191bba81ecfd5f52ef430a04e67823",
+    "Employee.json": "7e09993c56defe0de3b74e2e478a93c615f438806183b3b7392df5d9477bc393",
+    "Estimate.json": "6eecb66beaf339e58610cf395736899561c4a4ec2956a6673234a645d7542385",
+    "Invoice.json": "17886888e8baed944bed558361fa3387ec34fcefb7bd25d6f953135e47073210",
+    "Item.json": "d475842604fa6c6117bc677ca211b02989affd20c36724397e19f5280926e8c8",
+    "JournalEntry.json": "f3b3ae5420b50f6a639f63de7c628bb934d9d9393409c6b0bbcea412b0d9efab",
+    "Payment.json": "3ed6ee96de6d30b2099845ff21dbb7d9477ebf71ece689538037224a747bb3c6",
+    "PaymentMethod.json": "d3984811794f62ed70be5435d2f629c47b171ce87ed63950fb50b2e4eb5148b5",
+    "Preferences.json": "da4cf717d59b689a1e51d8e2f4cc98ab88af61851787332963f550569999d81f",
+    "Purchase.json": "85b5e25ef792a1fc17145795325c80de847700cd8a0d7e9cea98e420a9f49647",
+    "PurchaseOrder.json": "586e8fbd1f7d93058a0eca5780ff093391c2f200ce300f7089e38564a1895abc",
+    "RefundReceipt.json": "1474550a25aa8789017262e7e4c657a70bf5720b91fe838e021b9e2c085f8623",
+    "Report-AccountList.json": "05c8441835867c7ceca93f36f7b197b98ad2e954d07ad17c392821293c1e9e37",
+    "Report-AgedPayable.json": "8755111c684d8440f664a723067be08253a2d4920ab45a10703d6d7427469d0c",
+    "Report-AgedPayableDetail.json": "fc11b354cc4f6c70f65770e2af5d521eabee38bf568c2f59d4522e1974b11965",
+    "Report-AgedReceivableDetail.json": "220839d15f9a6b79a241dbcac717e1c616b1699ef81d87db64207d676c4fc157",
+    "Report-AgedReceivables.json": "03bb7dfa80f5cb09052c51bf9e82761b577849a405998728516f1dec09630208",
+    "Report-BalanceSheet.json": "5deec1b2a0f6418f5acdf4689c01d8616642d70c084a179beaf75aae7ec6894a",
+    "Report-Cashflow.json": "113c33b79e475d2bcfdb87c9b5ba76b7b13e1e88288b79f0f0ea368a1caa0dcf",
+    "Report-GeneralLedger.json": "2fa074c0272844e228dd2da8731c13af547ba257a3c80a15246bf1d1358cc84c",
+    "Report-ProfitAndLoss.json": "2c334186fcee0bb0fd839642cbc06135332ae081e90cfa6ce9ad918cad1fb587",
+    "SalesReceipt.json": "acb4c8ef059f73aff41f580513a0d62a5a7b2ee07e3d95166c88855e2c3d4978",
+    "TaxAgency.json": "11e97ec93178fc66eb90bc2d29c9f269c33dd01d7fe4d759408e2f54df5b4101",
+    "TaxCode.json": "e62cb44288d211882904d4f0c5dd37b4a21dd5d286c9fa2e970cc0c61ca3e75a",
+    "TaxRate.json": "2b30b43f7d92ac921923a80f62dc2cc8e0896d9023aa9d5b03fa8d3dc313886e",
+    "Term.json": "6e561a3ca35f1ff934b6a58b8cc0d397c15ae09f9ae725e5fc1284a34307a119",
+    "TimeActivity.json": "1b654aaa3e1ebf2cfdc9993b726ad8c55b5eb971d9f03ee51f67ed20d884a61f",
+    "Vendor.json": "ec476a36dad22e071a47f2cf66382872dd7f1474eb34fa72648a3e9cfe8fc2da"
+  },
+  "includedLineCount": 116,
+  "excludedLineCount": 13,
+  "includedAmountCents": 1843764,
+  "excludedAmountCents": 2652375,
+  "unmapped": [],
+  "exclusions": [
+    {
+      "id": "Invoice:130:line-3",
+      "sourceFile": "Invoice.json",
+      "amountCents": 33525,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:130:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 2682,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:129:line-5",
+      "sourceFile": "Invoice.json",
+      "amountCents": 47750,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:96:line-2",
+      "sourceFile": "Invoice.json",
+      "amountCents": 36500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:96:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 2200,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:12:line-4",
+      "sourceFile": "Invoice.json",
+      "amountCents": 219400,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:12:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 17552,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:119:line-2",
+      "sourceFile": "Invoice.json",
+      "amountCents": 29100,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:119:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 2328,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:63:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 8000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:106:line-2",
+      "sourceFile": "Invoice.json",
+      "amountCents": 7500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:106:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 360,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:103:line-3",
+      "sourceFile": "Invoice.json",
+      "amountCents": 58250,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:103:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 4660,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:67:line-2",
+      "sourceFile": "Invoice.json",
+      "amountCents": 42500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:67:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 3400,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:99:line-2",
+      "sourceFile": "Invoice.json",
+      "amountCents": 38400,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:99:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 3072,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:42:line-0",
+      "sourceFile": "Invoice.json",
+      "amountCents": 7500,
+      "reason": "Subtotal without source detail; linked statement charge is unavailable"
+    },
+    {
+      "id": "Invoice:42:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 600,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:95:line-3",
+      "sourceFile": "Invoice.json",
+      "amountCents": 21625,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:95:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 1050,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:93:line-3",
+      "sourceFile": "Invoice.json",
+      "amountCents": 42200,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:93:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 3840,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:68:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 7500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:68:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 600,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:9:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 10000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:9:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 800,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:13:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 5000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:13:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 400,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:14:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 8000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:14:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 640,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:92:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 7500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:92:tax",
+      "sourceFile": "Invoice.json",
+      "amountCents": 600,
+      "reason": "Sales tax excluded from revenue"
+    },
+    {
+      "id": "Invoice:10:line-2",
+      "sourceFile": "Invoice.json",
+      "amountCents": 17500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:75:line-2",
+      "sourceFile": "Invoice.json",
+      "amountCents": 8500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:71:line-3",
+      "sourceFile": "Invoice.json",
+      "amountCents": 20500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:70:line-3",
+      "sourceFile": "Invoice.json",
+      "amountCents": 15600,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:69:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 7000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:65:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 8000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:64:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 8000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:60:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 7500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:49:line-4",
+      "sourceFile": "Invoice.json",
+      "amountCents": 100500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:27:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 10355,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:39:line-2",
+      "sourceFile": "Invoice.json",
+      "amountCents": 30500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:34:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 37500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Invoice:16:line-1",
+      "sourceFile": "Invoice.json",
+      "amountCents": 75000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "SalesReceipt:47:line-1",
+      "sourceFile": "SalesReceipt.json",
+      "amountCents": 14000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "SalesReceipt:38:line-1",
+      "sourceFile": "SalesReceipt.json",
+      "amountCents": 8750,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "SalesReceipt:17:line-1",
+      "sourceFile": "SalesReceipt.json",
+      "amountCents": 22500,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "SalesReceipt:11:line-1",
+      "sourceFile": "SalesReceipt.json",
+      "amountCents": 33750,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "CreditMemo:73:line-1",
+      "sourceFile": "CreditMemo.json",
+      "amountCents": 10000,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "RefundReceipt:66:line-1",
+      "sourceFile": "RefundReceipt.json",
+      "amountCents": 8750,
+      "reason": "Subtotal duplicates detail lines"
+    },
+    {
+      "id": "Payment:128",
+      "sourceFile": "Payment.json",
+      "amountCents": 38700,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:120",
+      "sourceFile": "Payment.json",
+      "amountCents": 167552,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:116",
+      "sourceFile": "Payment.json",
+      "amountCents": 8000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:101",
+      "sourceFile": "Payment.json",
+      "amountCents": 22000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:98",
+      "sourceFile": "Payment.json",
+      "amountCents": 8100,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:97",
+      "sourceFile": "Payment.json",
+      "amountCents": 22675,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:94",
+      "sourceFile": "Payment.json",
+      "amountCents": 46040,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:31",
+      "sourceFile": "Payment.json",
+      "amountCents": 10800,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:33",
+      "sourceFile": "Payment.json",
+      "amountCents": 5000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:15",
+      "sourceFile": "Payment.json",
+      "amountCents": 8640,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:76",
+      "sourceFile": "Payment.json",
+      "amountCents": 17500,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:74",
+      "sourceFile": "Payment.json",
+      "amountCents": 0,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:72",
+      "sourceFile": "Payment.json",
+      "amountCents": 10500,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:61",
+      "sourceFile": "Payment.json",
+      "amountCents": 69400,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:40",
+      "sourceFile": "Payment.json",
+      "amountCents": 10355,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Payment:32",
+      "sourceFile": "Payment.json",
+      "amountCents": 30000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:118",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 10355,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:117",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 5650,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:104",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 90000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:91",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 30000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:82",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 66600,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:79",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 25000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:77",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 11409,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:50",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 7436,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:37",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 7500,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "BillPayment:22",
+      "sourceFile": "BillPayment.json",
+      "amountCents": 200000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Deposit:121",
+      "sourceFile": "Deposit.json",
+      "amountCents": 86815,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Deposit:102",
+      "sourceFile": "Deposit.json",
+      "amountCents": 40800,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Deposit:4",
+      "sourceFile": "Deposit.json",
+      "amountCents": 500000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Deposit:62",
+      "sourceFile": "Deposit.json",
+      "amountCents": 21875,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Deposit:5",
+      "sourceFile": "Deposit.json",
+      "amountCents": 60000,
+      "reason": "Settlement, not additional P&L activity"
+    },
+    {
+      "id": "Estimate:100",
+      "sourceFile": "Estimate.json",
+      "amountCents": 36207,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "Estimate:41",
+      "sourceFile": "Estimate.json",
+      "amountCents": 58250,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "Estimate:46",
+      "sourceFile": "Estimate.json",
+      "amountCents": 7000,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "Estimate:48",
+      "sourceFile": "Estimate.json",
+      "amountCents": 100500,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "PurchaseOrder:125",
+      "sourceFile": "PurchaseOrder.json",
+      "amountCents": 20500,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "PurchaseOrder:114",
+      "sourceFile": "PurchaseOrder.json",
+      "amountCents": 22875,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "PurchaseOrder:45",
+      "sourceFile": "PurchaseOrder.json",
+      "amountCents": 12500,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "TimeActivity:5",
+      "sourceFile": "TimeActivity.json",
+      "amountCents": 0,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "TimeActivity:4",
+      "sourceFile": "TimeActivity.json",
+      "amountCents": 0,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "TimeActivity:3",
+      "sourceFile": "TimeActivity.json",
+      "amountCents": 0,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "TimeActivity:2",
+      "sourceFile": "TimeActivity.json",
+      "amountCents": 0,
+      "reason": "Non-posting document"
+    },
+    {
+      "id": "TimeActivity:1",
+      "sourceFile": "TimeActivity.json",
+      "amountCents": 0,
+      "reason": "Non-posting document"
+    }
+  ],
+  "documentChecks": [
+    {
+      "id": "Invoice:130",
+      "detailCents": 33525,
+      "taxCents": 2682,
+      "documentTotalCents": 36207,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:129",
+      "detailCents": 47750,
+      "taxCents": 0,
+      "documentTotalCents": 47750,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:96",
+      "detailCents": 36500,
+      "taxCents": 2200,
+      "documentTotalCents": 38700,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:12",
+      "detailCents": 219400,
+      "taxCents": 17552,
+      "documentTotalCents": 236952,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:119",
+      "detailCents": 29100,
+      "taxCents": 2328,
+      "documentTotalCents": 31428,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:63",
+      "detailCents": 8000,
+      "taxCents": 0,
+      "documentTotalCents": 8000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:106",
+      "detailCents": 7500,
+      "taxCents": 360,
+      "documentTotalCents": 7860,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:103",
+      "detailCents": 58250,
+      "taxCents": 4660,
+      "documentTotalCents": 62910,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:67",
+      "detailCents": 42500,
+      "taxCents": 3400,
+      "documentTotalCents": 45900,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:99",
+      "detailCents": 38400,
+      "taxCents": 3072,
+      "documentTotalCents": 41472,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:42",
+      "detailCents": 0,
+      "taxCents": 600,
+      "documentTotalCents": 8100,
+      "differenceCents": 7500
+    },
+    {
+      "id": "Invoice:95",
+      "detailCents": 21625,
+      "taxCents": 1050,
+      "documentTotalCents": 22675,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:93",
+      "detailCents": 42200,
+      "taxCents": 3840,
+      "documentTotalCents": 46040,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:68",
+      "detailCents": 7500,
+      "taxCents": 600,
+      "documentTotalCents": 8100,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:9",
+      "detailCents": 10000,
+      "taxCents": 800,
+      "documentTotalCents": 10800,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:13",
+      "detailCents": 5000,
+      "taxCents": 400,
+      "documentTotalCents": 5400,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:14",
+      "detailCents": 8000,
+      "taxCents": 640,
+      "documentTotalCents": 8640,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:92",
+      "detailCents": 7500,
+      "taxCents": 600,
+      "documentTotalCents": 8100,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:10",
+      "detailCents": 17500,
+      "taxCents": 0,
+      "documentTotalCents": 17500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:75",
+      "detailCents": 8500,
+      "taxCents": 0,
+      "documentTotalCents": 8500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:71",
+      "detailCents": 20500,
+      "taxCents": 0,
+      "documentTotalCents": 20500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:70",
+      "detailCents": 15600,
+      "taxCents": 0,
+      "documentTotalCents": 15600,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:69",
+      "detailCents": 7000,
+      "taxCents": 0,
+      "documentTotalCents": 7000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:65",
+      "detailCents": 8000,
+      "taxCents": 0,
+      "documentTotalCents": 8000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:64",
+      "detailCents": 8000,
+      "taxCents": 0,
+      "documentTotalCents": 8000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:60",
+      "detailCents": 7500,
+      "taxCents": 0,
+      "documentTotalCents": 7500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:49",
+      "detailCents": 95475,
+      "taxCents": 0,
+      "documentTotalCents": 95475,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:27",
+      "detailCents": 10355,
+      "taxCents": 0,
+      "documentTotalCents": 10355,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:39",
+      "detailCents": 27450,
+      "taxCents": 0,
+      "documentTotalCents": 27450,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:34",
+      "detailCents": 37500,
+      "taxCents": 0,
+      "documentTotalCents": 37500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Invoice:16",
+      "detailCents": 75000,
+      "taxCents": 0,
+      "documentTotalCents": 75000,
+      "differenceCents": 0
+    },
+    {
+      "id": "SalesReceipt:47",
+      "detailCents": 14000,
+      "taxCents": 0,
+      "documentTotalCents": 14000,
+      "differenceCents": 0
+    },
+    {
+      "id": "SalesReceipt:38",
+      "detailCents": 7875,
+      "taxCents": 0,
+      "documentTotalCents": 7875,
+      "differenceCents": 0
+    },
+    {
+      "id": "SalesReceipt:17",
+      "detailCents": 22500,
+      "taxCents": 0,
+      "documentTotalCents": 22500,
+      "differenceCents": 0
+    },
+    {
+      "id": "SalesReceipt:11",
+      "detailCents": 33750,
+      "taxCents": 0,
+      "documentTotalCents": 33750,
+      "differenceCents": 0
+    },
+    {
+      "id": "CreditMemo:73",
+      "detailCents": 10000,
+      "taxCents": 0,
+      "documentTotalCents": 10000,
+      "differenceCents": 0
+    },
+    {
+      "id": "RefundReceipt:66",
+      "detailCents": 8750,
+      "taxCents": 0,
+      "documentTotalCents": 8750,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:126",
+      "detailCents": 20500,
+      "taxCents": 0,
+      "documentTotalCents": 20500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:25",
+      "detailCents": 10355,
+      "taxCents": 0,
+      "documentTotalCents": 10355,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:105",
+      "detailCents": 5650,
+      "taxCents": 0,
+      "documentTotalCents": 5650,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:108",
+      "detailCents": 31500,
+      "taxCents": 0,
+      "documentTotalCents": 31500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:24",
+      "detailCents": 90000,
+      "taxCents": 0,
+      "documentTotalCents": 90000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:90",
+      "detailCents": 30000,
+      "taxCents": 0,
+      "documentTotalCents": 30000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:3",
+      "detailCents": 66600,
+      "taxCents": 0,
+      "documentTotalCents": 66600,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:2",
+      "detailCents": 25000,
+      "taxCents": 0,
+      "documentTotalCents": 25000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:78",
+      "detailCents": 8644,
+      "taxCents": 0,
+      "documentTotalCents": 8644,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:35",
+      "detailCents": 11409,
+      "taxCents": 0,
+      "documentTotalCents": 11409,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:21",
+      "detailCents": 7436,
+      "taxCents": 0,
+      "documentTotalCents": 7436,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:44",
+      "detailCents": 75500,
+      "taxCents": 0,
+      "documentTotalCents": 75500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:18",
+      "detailCents": 7500,
+      "taxCents": 0,
+      "documentTotalCents": 7500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:1",
+      "detailCents": 200000,
+      "taxCents": 0,
+      "documentTotalCents": 200000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Bill:19",
+      "detailCents": 24123,
+      "taxCents": 0,
+      "documentTotalCents": 24123,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:144",
+      "detailCents": 3400,
+      "taxCents": 0,
+      "documentTotalCents": 3400,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:143",
+      "detailCents": 4240,
+      "taxCents": 0,
+      "documentTotalCents": 4240,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:142",
+      "detailCents": 1999,
+      "taxCents": 0,
+      "documentTotalCents": 1999,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:141",
+      "detailCents": 1999,
+      "taxCents": 0,
+      "documentTotalCents": 1999,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:140",
+      "detailCents": 1897,
+      "taxCents": 0,
+      "documentTotalCents": 1897,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:139",
+      "detailCents": 90000,
+      "taxCents": 0,
+      "documentTotalCents": 90000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:138",
+      "detailCents": 1999,
+      "taxCents": 0,
+      "documentTotalCents": 1999,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:137",
+      "detailCents": 386,
+      "taxCents": 0,
+      "documentTotalCents": 386,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:136",
+      "detailCents": 1999,
+      "taxCents": 0,
+      "documentTotalCents": 1999,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:135",
+      "detailCents": 566,
+      "taxCents": 0,
+      "documentTotalCents": 566,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:134",
+      "detailCents": 2350,
+      "taxCents": 0,
+      "documentTotalCents": 2350,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:133",
+      "detailCents": 18500,
+      "taxCents": 0,
+      "documentTotalCents": 18500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:132",
+      "detailCents": 5214,
+      "taxCents": 0,
+      "documentTotalCents": 5214,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:131",
+      "detailCents": 6315,
+      "taxCents": 0,
+      "documentTotalCents": 6315,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:127",
+      "detailCents": 7500,
+      "taxCents": 0,
+      "documentTotalCents": 7500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:122",
+      "detailCents": 5256,
+      "taxCents": 0,
+      "documentTotalCents": 5256,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:115",
+      "detailCents": 22875,
+      "taxCents": 0,
+      "documentTotalCents": 22875,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:109",
+      "detailCents": 5500,
+      "taxCents": 0,
+      "documentTotalCents": 5500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:107",
+      "detailCents": 25000,
+      "taxCents": 0,
+      "documentTotalCents": 25000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:88",
+      "detailCents": 5492,
+      "taxCents": 0,
+      "documentTotalCents": 5492,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:87",
+      "detailCents": 10809,
+      "taxCents": 0,
+      "documentTotalCents": 10809,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:89",
+      "detailCents": 4698,
+      "taxCents": 0,
+      "documentTotalCents": 4698,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:86",
+      "detailCents": 8909,
+      "taxCents": 0,
+      "documentTotalCents": 8909,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:85",
+      "detailCents": 15808,
+      "taxCents": 0,
+      "documentTotalCents": 15808,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:56",
+      "detailCents": 8245,
+      "taxCents": 0,
+      "documentTotalCents": 8245,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:84",
+      "detailCents": 10000,
+      "taxCents": 0,
+      "documentTotalCents": 10000,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:83",
+      "detailCents": 21566,
+      "taxCents": 0,
+      "documentTotalCents": 21566,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:81",
+      "detailCents": 8809,
+      "taxCents": 0,
+      "documentTotalCents": 8809,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:80",
+      "detailCents": 2436,
+      "taxCents": 0,
+      "documentTotalCents": 2436,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:59",
+      "detailCents": 6500,
+      "taxCents": 0,
+      "documentTotalCents": 6500,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:58",
+      "detailCents": 6201,
+      "taxCents": 0,
+      "documentTotalCents": 6201,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:57",
+      "detailCents": 5455,
+      "taxCents": 0,
+      "documentTotalCents": 5455,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:55",
+      "detailCents": 7486,
+      "taxCents": 0,
+      "documentTotalCents": 7486,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:51",
+      "detailCents": 11200,
+      "taxCents": 0,
+      "documentTotalCents": 11200,
+      "differenceCents": 0
+    },
+    {
+      "id": "Purchase:36",
+      "detailCents": 1808,
+      "taxCents": 0,
+      "documentTotalCents": 1808,
+      "differenceCents": 0
+    }
+  ],
+  "snapshotChecks": [
+    {
+      "kind": "receivable",
+      "sourceTotalCents": 528152,
+      "detailTotalCents": 528152,
+      "differenceCents": 0
+    },
+    {
+      "kind": "payable",
+      "sourceTotalCents": 160267,
+      "detailTotalCents": 160267,
+      "differenceCents": 0
+    }
+  ],
+  "notes": [
+    "Source P&L has no financial values. Transaction-derived results are sample activity, not reconciled statements.",
+    "Source ledger contains opening balances only.",
+    "Invoice 42 has a $75 subtotal but no sales detail; the linked StatementCharge is not supplied. Excluded from P&L and recorded as a document reconciliation difference.",
+    "Inventory purchases are assets. Modeled COGS is a separate editable assumption.",
+    "2019 snapshots are independently rebased to September 30, 2026 and are not reconciled to 2016 transactions.",
+    "January–April and November–December have no P&L coverage. YTD contains available sample activity only.",
+    "Credit memo 73 and refund receipt 66 refer to different customers and have no shared credit-settlement link."
+  ]
+}
