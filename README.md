@@ -2,7 +2,7 @@
 
 **[Open the live demo →](https://banzor.github.io/quickbooks-fpna-spreadjs/)**
 
-A Vite + vanilla JavaScript demo built around an interactive SpreadJS workbook.
+A Vite + vanilla JavaScript demo built around an interactive [SpreadJS](https://developer.mescius.com/spreadjs) workbook.
 
 The original application code is [MIT licensed](LICENSE). **SpreadJS is not open source: it is proprietary commercial software and requires a separate commercial license from MESCIUS.** This repository's MIT license does not grant rights to SpreadJS. See [third-party licensing](THIRD-PARTY-NOTICES.md).
 
